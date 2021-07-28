@@ -1,9 +1,8 @@
 import  * as React from 'react'
 
-import {useStaticQuery, graphql, Link} from "gatsby";
 import Header from './Header'
 
-import {container, navLink, navBar, title, siteTitle} from './css.module.css'
+import {container, title} from './css.module.css'
 
 const Layout = ({pageName, children}) => {
 

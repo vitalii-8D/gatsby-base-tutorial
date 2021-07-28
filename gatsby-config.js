@@ -14,12 +14,12 @@ module.exports = {
             path: `${__dirname}/blog/`
          }
       },
-      // 'gatsby-transform-remark'
-      {
-         resolve: `gatsby-plugin-mdx`,
-         options: {
-            extensions: [`.mdx`, `.md`],
-         },
-      }
+      'gatsby-transformer-remark'
+      // {
+      //    resolve: `gatsby-plugin-mdx`,
+      //    options: {
+      //       extensions: [`.mdx`, `.md`],
+      //    },
+      // }
    ],
 };
